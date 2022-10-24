@@ -1,6 +1,7 @@
 # MVVMTodoApp
 
 A Simple CRUD TodoList Application
+
 This App Covers:
 * Jetpack Compose
 * MVVM Architecture
