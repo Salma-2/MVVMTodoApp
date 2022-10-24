@@ -58,7 +58,7 @@ fun AddEditTodoScreen(
                 value = viewModel.description,
                 onValueChange = { viewModel.onEvent(AddEditTodoEvent.OnDescriptionChange(it)) },
                 placeholder = {
-                    Text(text = "Title")
+                    Text(text = "Descriptions")
                 },
 
                 modifier = Modifier.fillMaxWidth(),
