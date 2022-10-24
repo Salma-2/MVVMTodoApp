@@ -56,16 +56,15 @@ fun TodoItem(
                     fontWeight = FontWeight.Light
                 )
             }
-
-            Checkbox(
-                checked = todo.isDone,
-                onCheckedChange = { isChecked ->
-                    onEvent(
-                        TodoListEvent.OnDoneChange(
-                            todo,
-                            isChecked
-                        ))
-                })
         }
+        Checkbox(
+            checked = todo.isDone,
+            onCheckedChange = { isChecked ->
+                onEvent(
+                    TodoListEvent.OnDoneChange(
+                        todo,
+                        isChecked
+                    ))
+            })
     }
 }
